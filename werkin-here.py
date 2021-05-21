@@ -7,6 +7,10 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 import pyautogui
 
+############YOU MUST INSTALL THE RIGHT CHROME DRIVER FOR YOUR CHROME BROWSER
+############INSERT THE FILE LOCATION OF YOUR .EXE OF THE CHROME DRIVER HERE
+global path_chromedriver
+path_chromedriver = "chromedriver.exe" #change this to be where your chrome driver is located
 
 ############STATS VARIABLES
 global time_started
@@ -54,11 +58,11 @@ list_of_sentences = [
     "Find me a job.",
     "Where can I find a element?",
     "Have you found the missing link?",
-    "Vohn is the best.",
+    "Where is my car?",
     "Where did my trousers go?",
-    "Put another random sentence here.",
     "Find jobs",
-    "Dude, where is my car?"
+    "Dude, where is my car?",
+    "Put another random sentence here."
 ]
 
 global x_screen_max
@@ -69,8 +73,7 @@ global y_screen_min
 
 
 
-global path_chromedriver
-path_chromedriver = "chromedriver.exe" #change this to be where your chrome driver is located
+
 
 
 
