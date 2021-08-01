@@ -7,6 +7,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 import pyautogui
 
+#COMMENT FILE HERE
+
 ############YOU MUST INSTALL THE RIGHT CHROME DRIVER FOR YOUR CHROME BROWSER
 ############INSERT THE FILE LOCATION OF YOUR .EXE OF THE CHROME DRIVER HERE
 global path_chromedriver
